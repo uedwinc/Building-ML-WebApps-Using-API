@@ -1,10 +1,19 @@
-# Building Machine Learning WebApps using FastAPI
+# Building Machine Learning WebApps
 
-## Requirements
+## Building Machine Learning WebApps using FastAPI
 
-1. FastAPI requires Python 3.6 and above
+### Requirements
 
-2. Create a python virtual environment (For UNIX - CentOS)
+1. Start up an EC2 instance on AWS
+
+2. FastAPI requires Python 3.6 and above
+
+3. Create a python virtual environment (For Ubuntu)
+
+> Update Packages
+```
+sudo apt-get update
+```
 
 > Install
 ```
@@ -23,7 +32,7 @@ source fastapi-env/bin/activate
 
 ![fastapi-env]()
 
-## Installations
+### Installations
 
 - Install packages in requirements.txt
 
@@ -40,10 +49,13 @@ pip install fastapi uvicorn
 
 ![tree]()
 
-## Run the App
+### Run the App
 
 ```
 uvicorn loan_pred_app:app --reload
 ```
 
 ![app running]()
+
+
+## Building Machine Learning WebApps using Streamlit
