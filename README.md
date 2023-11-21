@@ -1,6 +1,6 @@
 # Building Machine Learning WebApps
 
-## Building Machine Learning WebApps using FastAPI
+## 1. Using FastAPI
 
 ### Requirements
 
@@ -58,4 +58,35 @@ uvicorn loan_pred_app:app --reload
 ![app running]()
 
 
-## Building Machine Learning WebApps using Streamlit
+## 2. Using Streamlit
+
+- Activate a virtual environment for streamlit
+
+![streamlit-env]()
+
+- Install streamlit
+```
+pip install streamlit
+```
+
+- To verify the installation, do
+```
+streamlit hello
+```
+
+- Create the application file for the ML-based application
+
+[streamlit_app.py]()
+
+- Run the app
+```
+streamlit run streamlit_app.py
+```
+OR
+```
+streamlit run streamlit_app.py &>/dev/null&
+```
+
+> To deploy your Streamlit app on the streamlit cloud, you can use Streamlit sharing. Upload your files with the requirements.txt file on GitHub. Create an account on their website at https://streamlit.io/cloud and then provide a GitHub link and streamlit app file. This will deploy your app on the streamlit cloud.
+
+## 3. Using Flask
